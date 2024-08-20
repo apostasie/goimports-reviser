@@ -1,4 +1,4 @@
-module github.com/incu6us/goimports-reviser/v3
+module github.com/apostasie/goimports-reviser/v3
 
 go 1.21
 
@@ -17,3 +17,5 @@ require (
 	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	gopkg.in/yaml.v3 v3.0.0 // indirect
 )
+
+replace github.com/incu6us/goimports-reviser/v3 => github.com/apostasie/goimports-reviser/v3 v3.0.0-20240527163429-85aa55bde226
